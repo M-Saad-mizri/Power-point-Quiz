@@ -18,7 +18,17 @@ const correctAnswers = {
   q17: "C", // 17. William Oughtred
   q18: "A", // 18. Place Holder
   q19: "B", // 19. Slide Show Tab
-  q20: "A", // 20. Operator
+  q20: "A",
+  q21: "D", // 21. 12
+  q22: "C", // 22. Transition & on mouse click
+  q23: "B", // 23. A new slide is inserted as third slide in presentation
+  q24: "A", // 24. AutoContent Wizard
+  q25: "D", // 25. Slide sorter view
+  q26: "D", // 26. A and C both
+  q27: "A", // 27. Multimedia software
+  q28: "B", // 28. Color scheme
+  q29: "B", // 29. Click Insert, Slides from Outline
+  q30: "C", // 20. Operator
 };
 
 document.getElementById("submit-btn").addEventListener("click", function () {
