@@ -1,14 +1,24 @@
 const correctAnswers = {
-  q1: "A",
-  q2: "C",
-  q3: "D",
-  q4: "D",
-  q5: "D",
+  q1: "A", // 1. Transitions command
+  q2: "C", // 2. You can insert pictures only
+  q3: "D", // 3. Slide Transition
+  q4: "D", // 4. Both A & B
+  q5: "D", // 5. Title slide
   q6: "B", // 6. Types of custom motion paths
   q7: "B", // 7. Slide transition
   q8: "A", // 8. Add effect
   q9: "B", // 9. Click the document close button
   q10: "D", // 10. Animation Scheme
+  q11: "B", // 11. Powerpnt.exe
+  q12: "B", // 12. Ctrl + E
+  q13: "A", // 13. Press Escape
+  q14: "C", // 14. Word Art
+  q15: "B", // 15. Ctrl + M
+  q16: "C", // 16. MS PowerPoint
+  q17: "C", // 17. William Oughtred
+  q18: "A", // 18. Place Holder
+  q19: "B", // 19. Slide Show Tab
+  q20: "A", // 20. Operator
 };
 
 document.getElementById("submit-btn").addEventListener("click", function () {
