@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PowerPoint Quiz</title>
+  </head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .quiz-container {
+      margin-top: 300px;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 600px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .quiz-question {
+      margin-bottom: 20px;
+    }
+
+    #submit-btn {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: #4caf50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    #submit-btn:hover {
+      background-color: #45a049;
+    }
+
+    #score {
+      margin-top: 20px;
+      font-size: 18px;
+      text-align: center;
+    }
+
+    /* Correct answer style */
+    .correct {
+      background-color: #d4edda;
+      color: #155724;
+    }
+
+    /* Wrong answer style */
+    .wrong {
+      background-color: #f8d7da;
+      color: #721c24;
+    }
+  </style>
+
+  <body>
+    <div class="quiz-container">
+      <h1>PowerPoint Quiz</h1>
+      <form id="quiz-form">
+        <div class="quiz-question">
+          <p>
+            1. Slide show options available to the presenter include all of the
+            following except:
+          </p>
+          <label
+            ><input type="radio" name="q1" value="A" />A. Transitions
+            command</label
+          ><br />
+          <label
+            ><input type="radio" name="q1" value="B" />B. Speaker notes
+            command</label
+          ><br />
+          <label
+            ><input type="radio" name="q1" value="C" />C. Meeting reminder
+            command</label
+          ><br />
+          <label
+            ><input type="radio" name="q1" value="D" />D. Navigation
+            commands</label
+          >
+        </div>
+        <div class="quiz-question">
+          <p>2. In PowerPoint, if you select Insert >> Picture >> From File:</p>
+          <label
+            ><input type="radio" name="q2" value="A" />A. You can insert
+            pictures and clipArts</label
+          ><br />
+          <label
+            ><input type="radio" name="q2" value="B" />B. You can insert
+            clipArts only</label
+          ><br />
+          <label
+            ><input type="radio" name="q2" value="C" />C. You can insert
+            pictures only</label
+          ><br />
+          <label
+            ><input type="radio" name="q2" value="D" />D. None of the
+            above</label
+          >
+        </div>
+        <div class="quiz-question">
+          <p>
+            3. The effect applied to display when slides change in slide show
+            view is:
+          </p>
+          <label
+            ><input type="radio" name="q3" value="A" />A. Slide Animation</label
+          ><br />
+          <label
+            ><input type="radio" name="q3" value="B" />B. Custom
+            Animation</label
+          ><br />
+          <label
+            ><input type="radio" name="q3" value="C" />C. Custom
+            Transition</label
+          ><br />
+          <label
+            ><input type="radio" name="q3" value="D" />D. Slide
+            Transition</label
+          >
+        </div>
+        <div class="quiz-question">
+          <p>4. To start a slide show of a presentation, you:</p>
+          <label><input type="radio" name="q4" value="A" />A. Hit F5 key</label
+          ><br />
+          <label
+            ><input type="radio" name="q4" value="B" />B. From Slide Show menu
+            choose From Beginning</label
+          ><br />
+          <label
+            ><input type="radio" name="q4" value="C" />C. From Slide Show menu
+            choose Rehearse timing</label
+          ><br />
+          <label><input type="radio" name="q4" value="D" />D. Both A & B</label>
+        </div>
+        <div class="quiz-question">
+          <p>
+            5. The slide that is used to introduce a topic and set the tone for
+            the presentation is called:
+          </p>
+          <label><input type="radio" name="q5" value="A" />A. Table slide</label
+          ><br />
+          <label><input type="radio" name="q5" value="B" />B. Graph slide</label
+          ><br />
+          <label
+            ><input type="radio" name="q5" value="C" />C. Bullet slide</label
+          ><br />
+          <label
+            ><input type="radio" name="q5" value="D" />D. Title slide</label
+          >
+        </div>
+        <div class="quiz-question">
+          <p>
+            6. What are lines, curve, free form, and scribble in PowerPoint?
+          </p>
+          <label
+            ><input type="radio" name="q6" value="A" />A. Emphasis effects that
+            can be applied to animations</label
+          ><br />
+          <label
+            ><input type="radio" name="q6" value="B" />B. Types of custom motion
+            paths</label
+          ><br />
+          <label
+            ><input type="radio" name="q6" value="C" />C. Predefined entrance
+            and exit effects</label
+          ><br />
+          <label
+            ><input type="radio" name="q6" value="D" />D. All of the
+            above</label
+          >
+        </div>
+        <div class="quiz-question">
+          <p>
+            7. In Microsoft PowerPoint, the entry effect as one slide replaces
+            another in a show is called a (an):
+          </p>
+          <label><input type="radio" name="q7" value="A" />A. Animation</label
+          ><br />
+          <label
+            ><input type="radio" name="q7" value="B" />B. Slide
+            transition</label
+          ><br />
+          <label
+            ><input type="radio" name="q7" value="C" />C. Custom
+            animation</label
+          ><br />
+          <label
+            ><input type="radio" name="q7" value="D" />D. Preset
+            animation</label
+          >
+        </div>
+        <div class="quiz-question">
+          <p>
+            8. Which option on the custom animation task pane allows you to
+            apply a preset or custom motion path?
+          </p>
+          <label><input type="radio" name="q8" value="A" />A. Add effect</label
+          ><br />
+          <label><input type="radio" name="q8" value="B" />B. Emphasis</label
+          ><br />
+          <label><input type="radio" name="q8" value="C" />C. Animate now</label
+          ><br />
+          <label
+            ><input type="radio" name="q8" value="D" />D. All of the
+            above</label
+          >
+        </div>
+        <div class="quiz-question">
+          <p>9. To exit PowerPoint?</p>
+          <label
+            ><input type="radio" name="q9" value="A" />A. Click the application
+            minimize button</label
+          ><br />
+          <label
+            ><input type="radio" name="q9" value="B" />B. Click the document
+            close button</label
+          ><br />
+          <label
+            ><input type="radio" name="q9" value="C" />C. Double click the
+            application's control menu icon</label
+          ><br />
+          <label
+            ><input type="radio" name="q9" value="D" />D. Double click the
+            document control menu icon</label
+          >
+        </div>
+        <div class="quiz-question">
+          <p>
+            10. What PowerPoint feature will you use to apply motion effects to
+            different objects on a slide?
+          </p>
+          <label
+            ><input type="radio" name="q10" value="A" />A. Slide
+            Transition</label
+          ><br />
+          <label
+            ><input type="radio" name="q10" value="B" />B. Slide Design</label
+          ><br />
+          <label
+            ><input type="radio" name="q10" value="C" />C. Animation
+            Objects</label
+          ><br />
+          <label
+            ><input type="radio" name="q10" value="D" />D. Animation
+            Scheme</label
+          >
+        </div>
+        <button type="button" id="submit-btn">Submit</button>
+      </form>
+      <div id="score"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
